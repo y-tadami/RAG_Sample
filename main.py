@@ -7,7 +7,8 @@ import numpy as np
 import tiktoken
 from rank_bm25 import BM25Okapi
 from openai import AzureOpenAI
-from typing import UploadedFile, List, Tuple
+from streamlit.runtime.uploaded_file_manager import UploadedFile
+from typing import List, Tuple
 from janome.tokenizer import Tokenizer
 from dotenv import load_dotenv
 
