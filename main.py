@@ -7,7 +7,7 @@ import numpy as np
 import tiktoken
 from rank_bm25 import BM25Okapi
 from openai import AzureOpenAI
-from typing import List, Tuple
+from typing import UploadedFile, List, Tuple
 from janome.tokenizer import Tokenizer
 from dotenv import load_dotenv
 
@@ -263,7 +263,7 @@ def create_embeddings_and_index(chunked_result: List[str]) -> Tuple[np.ndarray, 
     index.add(embeddings)
     return embeddings, index
 
-def process_pdf(uploaded_file) -> Tuple[List[str], np.ndarray, faiss.IndexFlatIP]:
+def process_pdf(uploaded_file: UploadedFile) -> Tuple[List[str], np.ndarray, faiss.IndexFlatIP]:
     """
     PDFファイルを処理し、テキストチャンク、埋め込み、検索インデックスを生成する関数
 
