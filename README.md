@@ -50,9 +50,13 @@
 以下の環境変数を .env ファイルに設定してください：
 
 AZURE_API_KEY=your_azure_api_key
+
 AZURE_ENDPOINT=your_azure_endpoint
+
 AZURE_API_VERSION=your_azure_api_version
+
 AZURE_DEPLOYMENT_NAME=your_deployment_name
+
 EMBEDDING_MODEL=your_embedding_model_name
 
 ### 7. 注意事項
