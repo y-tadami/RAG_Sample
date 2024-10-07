@@ -210,7 +210,7 @@ def hybrid_search_rrf(query: str, index: faiss.IndexFlatIP, embeddings: np.ndarr
     
     return normalized_scores, sorted_indices, vec_ranks_result, key_ranks_result
 
-def extract_text_from_pdf(uploaded_file) -> str:
+def extract_text_from_pdf(uploaded_file: UploadedFile) -> str:
     """
     アップロードされたPDFファイルからテキストを抽出する関数
 
