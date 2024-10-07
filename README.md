@@ -22,19 +22,23 @@
 ### 4. インストール手順
 1. リポジトリをクローンする：
 
-   git clone https://github.com/yourusername/pdf-search-app.git
+   - git clone https://github.com/yourusername/pdf-search-app.git
    
-   cd pdf-search-app
+   - cd pdf-search-app
+
 
 3. 仮想環境を作成し、アクティベートする：
-   python -m venv venv
+
+   - python -m venv venv
    
-   source venv/bin/activate  # Linuxの場合
+   - source venv/bin/activate  # Linuxの場合
    
-   venv\Scripts\activate  # Windowsの場合
+   - venv\Scripts\activate  # Windowsの場合
+
 
 5. 必要なパッケージをインストールする：
-   pip install -r requirements.txt
+
+   - pip install -r requirements.txt
 
 ### 5. 使用方法
 1. アプリケーションを起動する：
@@ -49,11 +53,15 @@
 ### 6. 環境変数の設定
 以下の環境変数を .env ファイルに設定してください：
 
-AZURE_API_KEY=your_azure_api_key
-AZURE_ENDPOINT=your_azure_endpoint
-AZURE_API_VERSION=your_azure_api_version
-AZURE_DEPLOYMENT_NAME=your_deployment_name
-EMBEDDING_MODEL=your_embedding_model_name
+- AZURE_API_KEY=your_azure_api_key
+
+- AZURE_ENDPOINT=your_azure_endpoint
+
+- AZURE_API_VERSION=your_azure_api_version
+
+- AZURE_DEPLOYMENT_NAME=your_deployment_name
+
+- EMBEDDING_MODEL=your_embedding_model_name
 
 ### 7. 注意事項
 - 大きなPDFファイルの処理には時間がかかる場合があります
