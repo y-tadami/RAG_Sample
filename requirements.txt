@@ -1,0 +1,10 @@
+streamlit==1.38.0
+pdfplumber==0.11.4
+nltk==3.9.1
+faiss-cpu==1.8.0.post1
+numpy==1.26.4
+rank-bm25==0.2.2
+openai==1.51.0
+tiktoken==0.7.0
+Janome==0.5.0
+python-dotenv==1.0.1
