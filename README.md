@@ -54,13 +54,13 @@
 以下の環境変数を .env ファイルに設定してください：
 
 - AZURE_DEPLOYMENT_NAME = "your_azure_openai_model_name"
-- 
+  
 - EMBEDDING_MODEL = "your_azure_embedding_model_name"
-- 
+  
 - AZURE_API_KEY='your_azure_api_key'
-- 
+
 - AZURE_API_VERSION = "your_azure_api_version"
-- 
+
 - AZURE_ENDPOINT='your_azure_endpoint'
 
 ### 7. 注意事項
