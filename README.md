@@ -24,7 +24,7 @@
 
    - git clone https://github.com/yourusername/pdf-search-app.git
    
-   - cd pdf-search-app
+   - cd pdf-search-app　（PDFファイルが格納されているディレクトリまで移動）
 
 
 3. 仮想環境を作成し、アクティベートする：
